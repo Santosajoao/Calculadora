@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to top, #284466, #1473E6);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+#box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #00000091;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+button{
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: #747373;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(61, 60, 60);
+    transition: 0.1s;
+}
+
+#tela{
+    background-color: white;
+    color: #000;
+    font-size: 25px;
+    text-align: end;
+    height: 30px;
+    margin: 3px; 
+}
+
+.equal{
+   height: 102px;
+    background-color: rgb(184, 123, 9);
+}
