@@ -53,3 +53,10 @@ button:hover{
    height: 102px;
     background-color: rgb(184, 123, 9);
 }
+
+img{
+    display: inline-block;
+    text-align: center;
+    margin-top: 8px;
+    width: 25px;
+}
